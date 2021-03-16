@@ -1,0 +1,27 @@
+{
+  "name": "hrank-qa-frontend",
+  "version": "1.0.0",
+  "description": "Hacker Rank QA front-end test template (NodeJS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm install",
+    "lint": "eslint --ignore-path .gitignore ./src",
+    "prettier:check": "prettier --check 'src/**/*.{ts,json,js,tsx,graphql,md,yml,yaml,json}'",
+    "prettier:fix": "prettier --write 'src/**/*.{ts,json,js,tsx,graphql,md,yml,yaml,json}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipMoney/hrank-qa-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipMoney/hrank-qa-frontend/issues"
+  },
+  "homepage": "https://github.com/zipMoney/hrank-qa-frontend#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "prettier": "^2.1.2"
+  }
+}
